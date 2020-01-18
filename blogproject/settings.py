@@ -22,7 +22,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'f17f#7m9_8_9r4+u-hhhgmk536s*33$auc_jg7(ada)zel3(zd'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['193.112.128.44', '127.0.0.1', 'localhost']
 
@@ -35,9 +35,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'blog.apps.BlogConfig',  # 注册blog应用
+    'blog.apps.BlogConfig',  # 注册blog应用 测试
     'comments.apps.CommentsConfig',  # 注册评论应用
-
 ]
 
 MIDDLEWARE = [
