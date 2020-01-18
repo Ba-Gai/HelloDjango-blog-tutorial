@@ -8,6 +8,7 @@ verify_ssl = true
 [packages]
 markdown = "*"
 django = "==2.2.3"
+gunicorn = "*"
 
 [requires]
 python_version = "3.6"
